@@ -21,7 +21,7 @@ body {
   gap: 24px;
 }
 
-botao {
+button {
   background-color: #3d1f5b;
   color: #fdd835;
   font-size: 14px;
@@ -36,7 +36,7 @@ botao {
   font-family: 'Press Start 2P', cursive;
 }
 
-botao:hover {
+button:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 0 #10001a;
   background-color: #5a2d80;
