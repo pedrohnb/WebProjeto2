@@ -14,14 +14,14 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
-.container-botoes {
+.conjunto-botoes {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-button {
+botao {
   background-color: #3d1f5b;
   color: #fdd835;
   font-size: 14px;
@@ -36,7 +36,7 @@ button {
   font-family: 'Press Start 2P', cursive;
 }
 
-button:hover {
+botao:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 0 #10001a;
   background-color: #5a2d80;
