@@ -16,32 +16,43 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .conjunto-botoes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: 24px;
 }
 
-button {
+botao {
   background-color: #4CAF50;
   color: #FFFFFF;
-  font-size: 14px;
-  padding: 20px 40px;
-  border: none;
-  border-radius: 12px;
-  box-shadow: 0 4px 0 #2E8B57;
-  cursor: pointer;
-  width: 260px;
-  text-shadow: 1px 1px 1px #000000;
-  transition: transform 0.2s, box-shadow 0.2s;
   font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  padding: 25px 50px;
+  width: 280px;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  border: 1px solid #000000; 
+  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 0 #228B22;
-  background-color: #66BB6A;
+botao:hover {
+  color: #FFFF00;
+  transform: scale(1.1);
 }
