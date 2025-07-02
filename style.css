@@ -5,13 +5,17 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: url('1.jpg') no-repeat center center fixed;
+  font-family: 'Press Start 2P', monospace; /* Fonte estilo retrô */
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  background-image: url('fundo.jpg'); /* Define imagem de fundo */
   background-size: cover;
-  font-family: 'Press Start 2P', cursive;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .conjunto-botoes {
