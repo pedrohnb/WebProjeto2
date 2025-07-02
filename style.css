@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: 'Press Start 2P', monospace; /* Fonte estilo retrô */
+  font-family: 'Press Start 2P', monospace;
   font-weight: bold;
   font-size: 24px;
   color: #000000;
   margin: 0;
   padding: 0;
-  background-image: url('fundo.jpg'); /* Define imagem de fundo */
+  background-image: url('fundo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,22 +26,22 @@ body {
 }
 
 button {
-  background-color: #3d1f5b;
-  color: #fdd835;
+  background-color: #4CAF50;
+  color: #FFFFFF;
   font-size: 14px;
   padding: 20px 40px;
   border: none;
   border-radius: 12px;
-  box-shadow: 0 4px 0 #230b38;
+  box-shadow: 0 4px 0 #2E8B57;
   cursor: pointer;
   width: 260px;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #000000;
   transition: transform 0.2s, box-shadow 0.2s;
   font-family: 'Press Start 2P', cursive;
 }
 
 button:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 0 #10001a;
-  background-color: #5a2d80;
+  box-shadow: 0 6px 0 #228B22;
+  background-color: #66BB6A;
 }
