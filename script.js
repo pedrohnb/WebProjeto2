@@ -1,4 +1,4 @@
-function iniciarJogoSoma() {
+function jogoSoma() {
   let num1 = parseInt(prompt("Digite o primeiro número inteiro:"));
   let num2 = parseInt(prompt("Digite o segundo número inteiro:"));
 
@@ -6,7 +6,7 @@ function iniciarJogoSoma() {
   alert("A soma dos números é: " + resultado);
   }
 
-function iniciarJogoNumeroSecreto() {
+function jogoNumeroSecreto() {
   alert('Seja bem-vindo ao nosso jogo!');
 
   let numeroSecreto = 5;
@@ -27,7 +27,7 @@ function iniciarJogoNumeroSecreto() {
   }
 }
 
-function iniciarJogoMedia() {
+function jogoMedia() {
   alert("Bem-vindo ao Jogo da Média!");
 
   let quantidade = prompt("Quantos números você quer digitar?");
